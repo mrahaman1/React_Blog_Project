@@ -16,7 +16,8 @@ const CardHome = (props) => {
                     </div>
                 </div>
                 <hr style={{ fontWeigth: "30px", color: "black" }} />
-            </div></NavLink>
+            </div>
+        </NavLink>
     )
 
 }

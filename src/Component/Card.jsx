@@ -6,17 +6,10 @@ const Card = (props) => {
     const { imgUrl, title, description, techId , articleid } = props;
     return (
         // <Link to="/DetailPage">
-            <div>
-        <NavLink 
-            state={{
-                title: title,
-                img: imgUrl,
-                description: description,
-                id: techId,
-            }}
-            // to={`${techId}`}
-            to={`${articleid}`}
-        >
+    <div>
+        <NavLink state={{title: title, img: imgUrl, description: description, id: techId}} to={`${articleid}`}>
+            {/* // to={`${techId}`} */}
+        
             <div >
                 <div className="card__container">
                     <div className="card__image">

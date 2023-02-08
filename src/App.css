@@ -1,6 +1,7 @@
 .header_container{
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .header_container p{
@@ -22,6 +23,7 @@
 .nav{
   margin-top: 5px;
   display: flex;
+  
 }
 
 .nav ul{

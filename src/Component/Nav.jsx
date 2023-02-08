@@ -15,6 +15,7 @@ const Nav = () => {
             <h4><li><NavLink className={({isActive})=>(isActive ? 'active' : 'notactive')} to='/food'>Food</NavLink></li></h4>
         </ul>
       </div>
+      <hr/>
 
     </>
   )
